@@ -47,7 +47,7 @@ function HomePage() {
   };
 
   return (
-    <div className="p-6 mx-auto">
+    <div className="p-6 mx-auto pb-28">
       {/* Search Bar */}
       <div className="mb-6">
         <input
