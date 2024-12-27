@@ -29,7 +29,7 @@ const Layout = () => {
   };
 
   return (
-    <div>
+    <div className="min-h-screen relative">
       {/* Navigation Bar */}
       <nav className="bg-gray-800 text-white p-4 px-10">
         <div className="mx-auto flex justify-between items-center">
@@ -57,7 +57,7 @@ const Layout = () => {
         <Outlet />
       </div>
 
-      <footer className="bg-gray-100 text-gray-600 py-4 text-center">
+      <footer className="bg-gray-100 text-gray-600 py-4 text-center absolute bottom-0 left-0 right-0">
         <p className="text-sm">
           © {new Date().getFullYear()} Designed by{" "}
           <a
