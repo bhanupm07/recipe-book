@@ -109,7 +109,7 @@ function HomePage() {
 
       {/* No Results */}
       {!loading && filteredRecipes.length === 0 && (
-        <p className="text-center text-gray-500">No recipes found.</p>
+        <p className="text-center text-gray-500">No recipes found</p>
       )}
     </div>
   );
