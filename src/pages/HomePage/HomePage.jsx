@@ -63,7 +63,7 @@ function HomePage() {
       {loading && (
         <div className="flex flex-col justify-center items-center my-6 h-[calc(100vh-100px)]">
           <div className="animate-spin rounded-full h-10 w-10 border-t-4 border-blue-500 mb-3"></div>
-          <p className="text-blue-500 mt-2">Loading recipes...</p>
+          <p className="text-blue-500 mt-2">Loading recipes....</p>
         </div>
       )}
 
